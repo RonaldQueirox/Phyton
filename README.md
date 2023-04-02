@@ -1,2 +1,2 @@
-# Phyton
- Exercicíos de Phyton
+# Python
+ Exercicíos de Python
