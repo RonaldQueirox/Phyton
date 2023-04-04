@@ -1,14 +1,15 @@
-maior = 0
-menor = 0
-for p in range(1, 6):
-    peso = float(input('Peso da {}ª pessoa: '.format(p)))
-    if p == 1:
-        maior = peso
-        menor = peso
+# Desafio 054
+
+from datetime import date
+atual = date.today().year
+totmaior = 0
+totmenor = 0
+for pess in range(1, 8):
+    nasc = int(input('Em que ano a {}ª pessoa nasceu? '.format(pess)))
+    idade = atual - nasc
+    if idade >= 21:
+        totmaior += 1
     else:
-        if peso > maior:
-            maior = peso
-        if peso < menor:
-            menor = peso
-print('O maior peso lido foi de {}Kg'.format(maior))
-print('O maior peso lido foi de {}Kg'.format(menor))
+        totmenor += 1
+print('Ao todo tivemos {} pessoas maiores de idade'.format(totmaior))
+print('E também tivemos {} pessoas menores de idade'.format(totmenor))

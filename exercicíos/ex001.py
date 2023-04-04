@@ -5,5 +5,5 @@ print('Olá, Mundo')
 
 # Outra forma de escrever ola mundo na tela
 
-msg = ('Olá, Mundo')
+msg = str(('Olá, Mundo'))
 print(msg)
