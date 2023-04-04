@@ -1,3 +1,5 @@
+# Desafio 045
+
 from random import randint 
 from time import sleep
 itens = ('Pedra', 'Papel', 'Tesoura')
