@@ -5,4 +5,4 @@ print('Números Pares Até O Número 50')
 print('-=-' * 20)
 for c in range (0, 50, 2):
     print(c + 2)
-    sleep(1)
+    sleep(1) # type: ignore

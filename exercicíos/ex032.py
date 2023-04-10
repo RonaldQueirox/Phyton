@@ -11,7 +11,7 @@ print('''Suas Opções:
 jogador = int(input('Qual é sua jogada? '))
 print('JO')
 sleep(1) # Para Espera Um Segundo
-print('KEN')
+ # type: ignoreprint('KEN')
 sleep(1)
 print('PO!!!!!')
 sleep(1)
