@@ -5,4 +5,4 @@ print('Contagem Regressiva Para o Estouro de Fogos de Artifício')
 print('-=-' * 20)
 for c in range (0, 11):
     print(c)
-    sleep(.6)
+    sleep (1)

@@ -10,17 +10,17 @@ print('''Suas Opções:
 [ 2 ] TESOURA''')
 jogador = int(input('Qual é sua jogada? '))
 print('JO')
-sleep(.5) # Para Espera Um Segundo
+sleep(1) # Para Espera Um Segundo
 print('KEN')
-sleep(.5)
+sleep(1)
 print('PO!!!!!')
-sleep(.5)
+sleep(1)
 print('-=-' * 20)
-sleep(.3)
+sleep(1)
 print('Computador jogou {}'.format(itens[comp]))
-sleep(.3)
+sleep(1)
 print('Jogador jogou {}'.format(itens[jogador]))
-sleep(.3)
+sleep(1)
 print('-=-' * 20)
 if comp == 0: # computador jogou PEDRA
     if jogador == 0:
